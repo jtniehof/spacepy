@@ -14,6 +14,7 @@ on:
     - cron: '0 22 * * *'
   pull_request:
     branches: [ $default-branch ]
+    types: [ opened, synchronize, reopened, ready_for_review ]
   # Required for manual triggering
   workflow_dispatch:
 
