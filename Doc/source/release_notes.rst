@@ -8,6 +8,16 @@ This document presents user-visible changes in each release of SpacePy.
    :depth: 2
    :local:
 
+0.8 Series
+==========
+0.8.0 (2024-xx-xx)
+------------------
+
+New features
+************
+`.pycdf.CDF.leapsecond_lastupdated` was added to allow reading the
+last update of the leapsecond table in a CDF.
+
 0.7 Series
 ==========
 0.7.0 (2024-11-08)
